@@ -1,0 +1,31 @@
+public class App {
+
+ public static void main(String[] args) {
+   
+
+   Logger asteriskLogger = new AsteriskLogger();
+   
+   asteriskLogger.log("Hello");
+   asteriskLogger.log("Are you ok?");
+   
+   System.out.println();
+   
+   asteriskLogger.error("Automovil");
+   asteriskLogger.error("Program");
+   
+   Logger spacedLogger = new SpacedLogger();
+   
+   spacedLogger.log("Hi");
+   spacedLogger.log("Firepit");
+   
+   System.out.println();
+   
+   spacedLogger.error("Camel");
+   spacedLogger.error("Headphones");
+   
+   
+   
+   
+ }
+
+}
